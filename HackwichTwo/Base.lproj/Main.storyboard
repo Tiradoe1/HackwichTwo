@@ -17,12 +17,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-1P-mwy">
-                                <rect key="frame" x="151" y="722" width="112" height="60"/>
+                                <rect key="frame" x="151" y="76" width="112" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Press Me"/>
                                 <connections>
                                     <action selector="pressMeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HDi-EU-Oqb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emq-sr-Vi2">
+                                <rect key="frame" x="138" y="706" width="139" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="kMq-wt-ZOX" kind="show" id="hUb-g3-TmB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -32,7 +41,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="42" y="72"/>
+            <point key="canvasLocation" x="-391.304347826087" y="81.696428571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F98-bt-rSS">
+            <objects>
+                <viewController id="kMq-wt-ZOX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kX6-85-PJn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cbn-UP-oEU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Xn-nu-8jV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4G-l8-Yb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="82"/>
         </scene>
     </scenes>
     <resources>
